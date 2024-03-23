@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'rubik-reg';
+    src: url(../fonts/Rubik/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'rubik-extrabold';
+    src: url(../fonts/Rubik/Rubik-ExtraBold.ttf);
+}
+
+p{
+    font-family: 'rubik-reg';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* INDEX */
+
+.index-bg{    
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 86.9vh;
+    background-color: #40408B;
+    justify-content: center;
+}
+
+.index-logo{
+    width: 97vw;
+}
+
+.bottom-nav{
+    font-family: 'rubik-reg';
+    font-size: 1.5vw;
+    background-color: #D76983;
+    padding: 2.05vw;
+    text-align: center;
+}
+
+.bottom-nav a{
+    padding: 1vw;
+    margin: 7vw;
+    color: #FFF6F6;
+    text-decoration: none;
+}
+
+.bottom-nav a:hover{
+    transition: font-family 0.5s ease;
+    font-family: 'rubik-extrabold';
+    font-size: 1.2vw;
+}
+#index-doug, #index-microsite{
+    display: none;
+}
+
+.index-doug-hover{
+    width: 57vw;
+    margin-left: 8vw;
+    margin-top: -2vw;
+}
+
+.index-microsite-hover{
+    width: 52vw;
+    margin-left: 20vw;
+    margin-top: -2vw;
+}
+
