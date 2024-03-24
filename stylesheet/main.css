@@ -1,3 +1,9 @@
+/* DEFAULT STYLINGS */
+@font-face {
+    font-family: 'nohemi';
+    src: url(../fonts/Nohemi/Nohemi-Bold.ttf);
+}
+
 @font-face {
     font-family: 'rubik-reg';
     src: url(../fonts/Rubik/Rubik-Regular.ttf);
@@ -8,13 +14,121 @@
     src: url(../fonts/Rubik/Rubik-ExtraBold.ttf);
 }
 
+@font-face {
+    font-family: 'rubik-med';
+    src: url(../fonts/Rubik/Rubik-Medium.ttf);
+}
+
+.in-text-link{
+    transition: color 0.5s ease;
+    text-decoration: none;
+    color: #D76983;
+}
+
+.in-text-link:hover, .in-text-link:focus{
+    transition: color 0.5s ease;
+    text-decoration: underline;
+    color: #40408B;
+}
+
+h1{
+    font-family: 'nohemi';
+    font-size: 5vw;
+}
+
+h2{
+    font-family: 'nohemi';
+    font-size: 3vw;
+}
+
+h3{
+    margin-top: 5%;
+    font-family: 'nohemi';
+    font-size: 1.7vw;
+}
+
 p{
     font-family: 'rubik-reg';
+    color: rgb(70, 70, 70);
 }
 
 body{
+    font-family: 'rubik-reg';
+    color: rgb(70, 70, 70);
     margin: 0;
     padding: 0;
+}
+
+.style-guide-content{
+    padding: 1%;
+}
+
+.default-button, .submit-button, .reset-button{
+    padding: 1.5vw;
+    background-color: #D76983;
+    text-decoration: none;
+    color: #FFF6F6;
+    border-radius: 2em;
+    transition: background-color 0.5s ease;
+}
+
+.default-button:hover, .default-button:focus{
+    transition: background-color 0.5s ease;
+    background-color: #40408B;
+}
+
+.submit-button:hover, .submit-button:focus{
+    transition: background-color 0.5s ease;
+    background-color: #2b7d59;
+}
+
+.reset-button:hover, .reset-button:focus{
+    transition: background-color 0.5s ease;
+    background-color: #8c2533;
+}
+
+input{
+    padding: 1vw;
+    border-radius: 2em;
+}
+
+.embedded-img:hover, .embedded-img:focus{
+    opacity: 50%;
+}
+
+.brand-primary{
+    font-family: 'nohemi';
+}
+
+.brand-secondary{
+    font-family: 'rubik-reg';
+}
+
+.colour-palette-text1 {
+    color: #D76983;
+    font-family: 'Rubik-Med';
+    font-style: normal;
+    padding: 0.5em;
+}
+
+.colour-palette-text2 {
+    color: #40408B;
+    font-family: 'Rubik-Med';
+    font-style: normal;
+    padding: 0.5em;
+}
+
+.colour-palette-text3 {
+    color: #FFF6F6;
+    background-color: #353535;
+    font-family: 'Rubik-Med';
+    font-style: normal;
+    padding: 0.5em;
+}
+
+.inspo-img{
+    width: 40%;
+    margin-top: 4%;
 }
 
 /* INDEX */
@@ -33,6 +147,8 @@ body{
 }
 
 .bottom-nav{
+    position: sticky;
+    bottom: 0;
     font-family: 'rubik-reg';
     font-size: 1.5vw;
     background-color: #D76983;
@@ -42,7 +158,7 @@ body{
 
 .bottom-nav a{
     padding: 1vw;
-    margin: 7vw;
+    margin: 5%;
     color: #FFF6F6;
     text-decoration: none;
 }
@@ -52,7 +168,8 @@ body{
     font-family: 'rubik-extrabold';
     font-size: 1.2vw;
 }
-#index-doug, #index-microsite{
+
+#index-doug, #index-microsite, #index-rebranding{
     display: none;
 }
 
@@ -63,8 +180,229 @@ body{
 }
 
 .index-microsite-hover{
-    width: 52vw;
+    width: 50vw;
     margin-left: 20vw;
-    margin-top: -2vw;
+    margin-top: -3vw;
 }
 
+.index-rebranding-hover{
+    width: 50vw;
+    margin-left: 20vw;
+    margin-top: -4vw;
+}
+
+/* OVERVIEW TEXT */
+.overview-text{
+    margin-left: 10vw;
+}
+
+.overview-text-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5em;
+}
+
+.overview-flex1, .overview-flex2{
+    margin-bottom: 1.5vw;
+    width: 75%;
+}
+
+.overview-flex1{
+    font-family: 'rubik-bold', sans-serif;
+    color: #353535;
+}
+
+.overview-flex2{
+    font-family: 'rubik-reg', sans-serif;
+    margin-left: -50%;
+    /* margin-right: 15vw; */
+    color: #6e6e6e;
+}
+
+/* PROJECT PAGE HEADERS */
+.top-title{
+    background-color: rgba(215, 105, 131, 50%);
+    padding: 3%;
+}
+
+/* DOUGLAS ROYALS */
+
+.doug-top-img{
+    background-image: url(../imgs/main-doug.png);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    padding-top: 25vw;
+    text-align: left;
+    color: #fff6f6;
+    font-family: 'rubik-med', sans-serif;
+}
+
+.label-douglas-headings{
+    padding: 1em;
+    width: 100%;
+    /* https://www.w3docs.com/tools/code-editor/9895 */
+}
+
+#tab-pics{
+    width: 45%;
+    height: auto;
+}
+
+.mini-headers{
+    font-family: 'rubik-med', sans-serif;
+    font-size: 20pt;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: #796066;
+    justify-content: left;
+    text-align: left;
+}
+
+.left-flex-img{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.left-progress-img{    
+    width: 60%;
+}
+
+.image-text-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.image-text-flex1{
+    width: 40rem;
+    margin-right: 3rem;
+    text-align: center;
+}
+
+.image-text-flex2{
+    width: 20rem;
+}
+
+.left-img-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-progress-text{
+    line-height: 4.5vh;
+}
+
+.vball-new-line{
+    margin-top: 3rem;
+}
+
+.left-image-caption{
+    margin-top: -0.2%;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.vball-champ-pg-flex{
+    text-align: left;
+}
+
+.reflection-text{
+    padding-left: 15%;
+    padding-right: 10%;
+    margin-bottom: 5vh;
+}
+
+/* MICROSITE */
+
+.micro-modules{
+    display: flex;
+    margin-left: 17%;
+}
+
+.module-pic{
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.microsite-top-img{
+    background-image: url(../imgs/main-graphic-design.png);
+
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    padding-top: 25vw;
+    text-align: left;
+    color: #fff6f6;
+    font-family: 'rubik-med', sans-serif;
+}
+
+/* ABOUT */
+.about-flex{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 15%;
+    flex: 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 6.3%;
+}
+
+.about-flex1{
+    margin-right: 8%;
+    color: #6e6e6e;
+}
+
+.about-flex2{
+    margin-right: 30%;
+}
+
+.about-flex2 p{
+    margin-top: 1vh;
+}
+
+.about-body{
+    margin-right: 5%;
+    line-height: 1.6em;
+    margin-top: -2%;
+}
+
+.about-titles{
+    font-family: 'rubik-bold', sans-serif;
+}
+
+.about-title{
+    color: #40408B;
+    font-size: 3rem;
+    margin-bottom: 5%;
+    margin-top: 0;
+}
+
+.about-titles-socials{
+    font-family: 'rubik-bold', sans-serif;
+}
+
+.about-items{
+    margin-bottom: 1.5em;
+    color: #d76983;
+}
+
+.social-media-icons{
+    display: flex;
+    margin-top: 10%;
+}
+
+.socials-icon{
+    width: 2.5em;
+    margin-right: 1em;
+    transition: filter 0.3s ease;
+    filter: grayscale(0%);
+}
+
+#instagram-icon:hover, #instagram-icon:focus, #tiktok-icon:hover, #tiktok-icon:focus, #linkedin-icon:hover, #linkedin-icon:focus{
+    filter: grayscale(70%);
+}

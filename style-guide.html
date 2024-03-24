@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet/main.css">
+    <title>Style Guide - Rebecca Wong</title>
+</head>
+
+<body class="style-guide-content">
+  <header>
+    <h1>Portfolio Style Guide</h1>
+
+    <nav>
+      <a class="top-nav" href="#interactive_elements">Interactive Elements</a>
+      <a class="top-nav" href="#text_elements">Text Elements</a>
+      <a class="top-nav" href="#combined_elements">Combined Elements</a>
+      <a class="top-nav" href="#brand">Brand Identity</a>
+      <a class="top-nav" href="#citations">Citations</a>
+    </nav>
+    
+  </header>
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <h2>Interactive Elements</h2>
+
+    <section class="element">
+      <h3>In-text links</h3>
+
+      <h4>External source:</h4>
+      This is an example of an external <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans" target="_blank" class="in-text-link">in-text link</a>.
+
+    </section>
+
+
+    <!-- Default Button -->
+    <section class="element">
+
+      <h3>Navigation Links</h3>
+      <a class="default-button" href="#">Default Button</a>
+
+    </section>
+
+
+    <!-- Submit and Reset Buttons -->
+    <section class="element">
+      <h3>Submit/Reset Buttons</h3>
+      <a class="submit-button" href="#">Submit</a>
+      <a class="reset-button" href="#">Reset</a>
+    </section>
+
+
+    <!-- Text Input Label -->
+    <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <div class="form">
+            <label for="first-name">First Name</label><br>
+            <input type="text" name="first-name" placeholder="Jane"><br><br>
+        </div>
+    </section>
+
+
+    <!-- Radio Button With Label -->
+    <section class="element">
+      <h3>Radio Button with Label</h3>
+      <div class="payment-module terms-conditions">Have you read the terms and conditions?</div>
+      <div class="terms-conditions">
+        <input type="radio" id="select-yes" name="terms-conditions" value="YES" class="terms-conditions-input">
+        <label for="select-yes" class="terms-conditions-option">Yes</label><br>
+
+        <input type="radio" id="select-no" name="terms-conditions" value="NO" class="terms-conditions-input">
+        <label for="select-no" class="terms-conditions-option">No</label><br>
+      </div>
+
+      <!-- Source for creating the radio buttons: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio -->
+    </section>
+
+
+    <!-- Image as Link -->
+    <section class="element">
+    <h3>Image as a Link</h3>
+    <a href="douglas.html"><img class="embedded-img"
+        src="imgs/doug-hover.png">
+    </a>
+    </section>
+
+
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <!-- Headings -->
+  <section id="text_elements">
+    <h2>Text Elements</h2>
+
+    <section class="element">
+      <h3>Headings</h3>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+
+    </section>
+
+    <section class="element">
+    <!-- Paragraph -->
+    <h3>Paragraphs</h3>
+    <p>
+        Creating graphics for a large events to be perceived by many requires a recognizable and consistent visual
+        branding, involving colours, typography, and layout of elements. I practiced this heavily by creating many
+        different graphics with the same elements, and still making them unique and not monotonous.
+    </p>
+    </section>
+
+    <section class="element">
+      <!-- Numbered Lists -->
+      <h3>Numbered Lists</h3>
+      <div class="payment-module">List:</div>
+      <ol id="ordered-list">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ol>
+    </section>
+
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+  <!-- COMBINED ELEMENTS SECTION // -->
+  <section id="combined_elements">
+    <h2>Combined Elements</h2>
+
+    <section class="element">
+      <!-- Navigation -->
+      <h3>Main Navigation</h3>
+      <nav class="bottom-nav">
+        <a href="index.html" class="nav-item">home</a>
+        <a href="douglas.html" class="nav-item" id="nav-doug">douglas royals</a>
+        <a href="microsite.html" class="nav-item" id="nav-microsite">microsite</a>
+        <a href="about.html" class="nav-item">about me</a>
+        <a href="style-guide.html" class="nav-item">styleguide</a>
+     </nav>
+    </section>
+
+  </section>
+  <!-- // COMBINED ELEMENTS SECTION -->
+
+  <section id="brand">
+    <h2>Visual Identity</h2>
+    <p>When people view my portfolio, I want them to think I am a colourful, entheusiastic person who enjoys experimenting with layouts and interactvity. I want my portfolio to be very representative of the colours and fonts I like, as well as my technical abilities in HTML, CSS, JS, and the software I use in daily life such as Adobe Creative Cloud and Figma.</p>
+
+    <h2>Visual Components</h2>
+
+    <h4>Fonts:</h4>
+    <p>Primary: <a href="https://rajputrajesh-448.gumroad.com/l/NOHEMI9" target="_blank" class="in-text-link brand-primary">Nohemi</a></p>
+
+    <p>Secondary: <a href="https://fonts.google.com/specimen/Rubik" target="_blank" class="in-text-link brand-secondary">Rubik</a></p>
+
+    <h4>Colour Palette:</h4>
+    <p><em>Primary: </em><em class="colour-palette-text1">Pink // #D76983</em></p>
+    <p class="brand-component-description">
+        <em>For headings and interactive elements</em>
+    </p>
+
+    <p><em>Secondary: </em><em class="colour-palette-text2">Violet // #40408B</em></p>
+    <p class="brand-component-description">
+        <em>For backgrounds</em>
+    </p>
+
+    <p>Off-White: <em class="colour-palette-text3">Off-White // #FFF6F6</em></p>
+    <p class="brand-component-description"><em>For the main logo and elements with colourful backgrounds</em></p>
+
+    <h4>Art Direction:</h4>
+    <p>
+        The branding is bold and modern, but still easy to navigate. The font sizes are extreme, such as the hovered and unhovered states of the navigation bar text, and the landing page logo. The colour palette is very simple, and 
+    </p>
+
+    <p><em>Inspiration:</em></p>
+    <img class="inspo-img" src="imgs/inspo1.png" alt="Reference from Ransom.com. Landing page.">
+    <p>Reference from Random's landing page. I liked the large, oversized logo as the main focus point.</p>
+    <a href="https://ransomltd.com/">
+      <p class="in-text-link">https://ransomltd.com/</p>
+    </a>
+
+    <img class="inspo-img" src="imgs/inspo2.png" alt="Reference from Fromluke.com. Landing page.">
+    <p>Reference from Luke Meyer's landing page. I liked the hovering aspects of his projects.</p>
+    <a href="https://www.fromluke.com/">
+      <p class="in-text-link">https://www.fromluke.com/</p>
+    </a>
+
+    <img class="inspo-img" src="img/stamps.png" alt="Reference from Behance. Colourful stamp designs.">
+    <a href="inspo-link">
+      <p class="inspiration-description">
+        https://www.behance.net/gallery/168168435/Petit-Bazaar?tracking_source=search_projects%7Cchild+branding</p>
+    </a>
+  </section>
+
+  <section id="citations">
+    <h2>Citations</h2>
+
+    <ul>
+      <li>Hobonichi Techo. Online Store. n.d.. <strong>Elephant Image [Image]</strong>. Retrieved from <a
+          href="https://www.1101.com/store/techo/en/2023/pc/detail_toolstoys/s_gurunpatoy/">https://www.1101.com/store/techo/en/2023/pc/detail_toolstoys/s_gurunpatoy/</a>.
+      </li>
+  </section>
+
+
+  <nav class="bottom-nav">
+    <a href="index.html" class="nav-item">home</a>
+    <a href="douglas.html" class="nav-item" id="nav-doug">douglas royals</a>
+    <a href="microsite.html" class="nav-item" id="nav-microsite">microsite</a>
+    <a href="about.html" class="nav-item">about me</a>
+    <a href="style-guide.html" class="nav-item">styleguide</a>
+  </nav>
+
+</body>
+
+</html>
