@@ -70,11 +70,13 @@ body{
     color: #FFF6F6;
     border-radius: 2em;
     transition: background-color 0.5s ease;
+    border-color: #D76983;
 }
 
 .default-button:hover, .default-button:focus{
     transition: background-color 0.5s ease;
     background-color: #40408B;
+    border-color: #40408B;
 }
 
 .submit-button:hover, .submit-button:focus{

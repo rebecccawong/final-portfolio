@@ -30,14 +30,3 @@ micrositehover.addEventListener("mouseout", function(event) {
   micrositeshow.style.display = 'none';
   console.log('Microsite content not showing');
 });
-
-// INDEX REBRANDING
-rebrandinghover.addEventListener("mouseenter", function(event) {
-  rebrandingshow.style.display = 'block';
-  console.log('Rebranding content showing');
-});
-
-rebrandinghover.addEventListener("mouseout", function(event) {
-  rebrandingshow.style.display = 'none';
-  console.log('Rebranding content not showing');
-});
