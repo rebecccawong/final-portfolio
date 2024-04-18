@@ -1,6 +1,6 @@
 'use strict';
 
-// https://codepen.io/robee/pen/EWKZjz
+// Reference: https://codepen.io/robee/pen/EWKZjz
 
 var doughover = document.getElementById('nav-doug');
 var dougshow = document.getElementById('index-doug');
