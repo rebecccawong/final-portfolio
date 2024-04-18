@@ -535,3 +535,32 @@ input{
     transition: filter 0.3s ease;
     filter: grayscale(0%);
 }
+
+@media (max-width: 750px){
+    .about-flex{
+        display: block;
+        margin-left: 5%;
+        height: 100%;
+    }
+
+    .about-title{
+        font-size: 2em;
+    }
+
+    .about-flex2{
+        margin-top: 10%;
+        text-align: left;
+    }
+
+    .about-items{
+        display: block;
+        margin-top: 5%;
+    }
+
+    .about-items button{
+        width: 50%;
+        padding: 5%;
+        text-align: center;
+        justify-content: center;
+    }
+}
